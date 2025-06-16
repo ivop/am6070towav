@@ -4,6 +4,13 @@ With this program you can convert ROM dumps from old drum machines that used the
 It can be used both as a GUI application, and as a command line utility for batch conversion.
 Included is a database that detects most of the well known sample banks of the Linn drum machines, the Emu Drumulator, and Oberheim's DX and DMX.
 
+## Installation
+
+Download one of the [binary release](https://github.com/ivop/am6070towav/releases), or compile from source if you're comforable doing that.
+You'll need FLTK 1.3 or later, libSDL 2.x, and a C++ compiler.
+To build, type ```make```.
+On Windows, use MSYS and type ```make STATIC=-static```.
+
 ## GUI
 
 <img alt="screenshot" src="doc/am6070towav.png" width=320>
