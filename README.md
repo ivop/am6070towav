@@ -6,7 +6,7 @@ Included is a database that detects most of the well known sample banks of the L
 
 ## Installation
 
-Download one of the [binary release](https://github.com/ivop/am6070towav/releases), or compile from source if you're comforable doing that.
+Download one of the [binary release](https://github.com/ivop/am6070towav/releases), or compile from source if you're comfortable doing that.
 You'll need FLTK 1.3 or later, libSDL 2.x, and a C++ compiler.
 To build, type ```make```.
 On Windows, use MSYS and type ```make STATIC=-static```.
