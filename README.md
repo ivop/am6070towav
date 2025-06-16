@@ -2,8 +2,27 @@
 
 With this program you can convert ROM dumps from old drum machines that used the _am6070_ Companding D-to-A Converter.
 It can be used both as a GUI application, and as a command line utility for batch conversion.
+Included is a database that detects most of the well known sample banks of the Linn drum machines, the Emu Drumulator, and Oberheim's DX and DMX.
 
 ## GUI
+
+<img alt="screenshot" src="doc/am6070towav.png" width=320>
+
+You can load up to 8 ROM images at once.
+Especially the older machines, like the Linn LM-1, had their samples split over several ROMs.
+Load them in order and use the default conversion type.
+
+Newer machines had larger EPROMs and sometimes had multiple samples in one EPROM.
+You can select a different conversion to type to only convert part of the ROM.
+
+Note that there is no postprocessing and no resampling being done.
+The resulting WAV file has the _exact_ sample rate you specify with the tuning slider, and uses 16-bit signed integer samples.
+It's up to you or your DAW to do proper resampling to, for example, 24-bit 96kHz.
+If you click the play button to preview the current settings, the resampling is either done by libSDL or by your audio backend.
+That's not necessarily the best quality, but it has no effect on the final WAV file.
+
+Some drum machine did not have separate samples for closed and open hi-hats.
+For convenience there's an optional decay filter that will allow you to shorten the hats.
 
 ## Command Line
 
