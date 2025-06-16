@@ -933,7 +933,7 @@ static void usage(void) {
 }
 
 static const char *output_filename = "output.wav";
-static int sample_rate, conversion_type, decay_ms = -1;
+static int sample_rate = 20833, conversion_type, decay_ms = -1;
 
 int main(int argc, char **argv) {
     am6070_init_decode_table();
