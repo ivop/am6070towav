@@ -20,7 +20,7 @@ Especially the older machines, like the Linn LM-1, had their samples split over 
 Load them in order and use the default conversion type.
 
 Newer machines had larger EPROMs and sometimes had multiple samples in one EPROM.
-You can select a different conversion to type to only convert part of the ROM.
+You can select a different conversion type to only convert part of the ROM.
 
 Note that there is no postprocessing and no resampling being done.
 The resulting WAV file has the _exact_ sample rate you specify with the tuning slider, and uses 16-bit signed integer samples.
