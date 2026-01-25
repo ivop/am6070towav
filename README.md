@@ -2,7 +2,7 @@
 
 With this program you can convert ROM dumps from old drum machines that used the _am6070_ Companding D-to-A Converter.
 It can be used both as a GUI application, and as a command line utility for batch conversion.
-Included is a database that detects most of the well known sample banks of the Linn drum machines, the Emu Drumulator, and Oberheim's DX and DMX.
+Included is a database that detects most of the well known sample banks of the Linn drum machines, the Emu Drumulator, Oberheim's DX and DMX, and Sequential Circuits Drumtraks.
 
 ## GUI
 
