@@ -4,6 +4,13 @@ With this program you can convert ROM dumps from old drum machines that used the
 It can be used both as a GUI application, and as a command line utility for batch conversion.
 Included is a database that detects most of the well known sample banks of the Linn drum machines, the Emu Drumulator, Oberheim's DX and DMX, and Sequential Circuits Drumtraks.
 
+## Installation
+
+Download one of the [binary releases](https://github.com/ivop/am6070towav/releases), or compile from source if you're comfortable doing that.
+You'll need FLTK 1.3 or later, libSDL 2.x, and a C++ compiler.
+To build, type ```make```.
+On Windows, use MSYS and type ```make STATIC=-static```.
+
 ## GUI
 
 <img alt="screenshot" src="doc/am6070towav.png" width=320>
@@ -13,7 +20,7 @@ Especially the older machines, like the Linn LM-1, had their samples split over 
 Load them in order and use the default conversion type.
 
 Newer machines had larger EPROMs and sometimes had multiple samples in one EPROM.
-You can select a different conversion to type to only convert part of the ROM.
+You can select a different conversion type to only convert part of the ROM.
 
 Note that there is no postprocessing and no resampling being done.
 The resulting WAV file has the _exact_ sample rate you specify with the tuning slider, and uses 16-bit signed integer samples.
