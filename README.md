@@ -69,4 +69,4 @@ done
 ```
 
 [^1]: Note that the Drumtraks ROMs were blatently stolen from the LM-1, and the crash and ride were taken from the Linndrum.
-To have them check with a different CRC, the added a zero in front of them, and dropped the last byte.
+To have them check with a different CRC, they added a zero in front of them, and dropped the last byte.
