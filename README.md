@@ -2,7 +2,7 @@
 
 With this program you can convert ROM dumps from old drum machines that used the _am6070_ Companding D-to-A Converter.
 It can be used both as a GUI application, and as a command line utility for batch conversion.
-Included is a database that detects most of the well known sample banks of the Linn drum machines, the Emu Drumulator, Oberheim's DX and DMX, and Sequential Circuits Drumtraks.
+Included is a database that detects most of the well known sample banks of the Linn drum machines, the Emu Drumulator, Oberheim's DX and DMX, and Sequential Circuits Drumtraks[^1].
 
 ## Installation
 
@@ -67,3 +67,6 @@ for i in `seq 10000 1000 30000` ; do
     am6070towav -r $i -o clap-$i.wav clp1.bin clp2.bin
 done
 ```
+
+[^1]: Note that the Drumtraks ROMs were blatently stolen from the LM-1, and the crash and ride were taken from the Linndrum.
+To have them check with a different CRC, the added a zero in front of them, and dropped the last byte.
