@@ -1,4 +1,4 @@
-/* AM6070TOWAV - by Ivo van Poorten - Copyright © 2025
+/* AM6070TOWAV - by Ivo van Poorten - Copyright © 2025-2026
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -34,8 +34,8 @@
 
 #define VERSION_MAJOR       0
 #define VERSION_MINOR       9
-#define VERSION_SUBMINOR    0
-#define VERSION_STRING      "0.9.0"
+#define VERSION_SUBMINOR    1
+#define VERSION_STRING      "0.9.1"
 
 #define MAX_BANKS   8
 
@@ -843,7 +843,7 @@ MainWindow::MainWindow(const char *l) : Fl_Double_Window(850, 500, l) {
     cury += 48;
 
     auto copyright = new Fl_Box(w()/2-128, cury, 256, 16,
-        "version " VERSION_STRING " / Copyright © 2025 by Ivo van Poorten");
+      "version " VERSION_STRING " / Copyright © 2025-2026 by Ivo van Poorten");
     copyright->labelsize(12);
     copyright->labelfont(FL_ITALIC);
     cury += 32;
