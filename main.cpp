@@ -161,6 +161,10 @@ struct bank_info {
     { 8192, 0x867effea, "Oberheim DX Stock Regular Snare" },
     { 8192, 0x83a604ce, "Oberheim DX Stock Rim / Tambourine" },
     { 8192, 0xae4e945f, "Oberheim DX Stock Timbale" },
+
+    { 4096, 0xdd4fb6e9, "Oberheim DX Stock Rim (split)" },
+    { 4096, 0x6d4b1650, "Oberheim DX Stock Tambourine (split)" },
+
     { 4096, 0x3ab63275, "Oberheim DMX Stock Bass" },
     { 4096, 0x36e934f9, "Oberheim DMX Stock Hi-Hat" },
     { 4096, 0xf5b48db0, "Oberheim DMX Stock Floor Tom" },
@@ -168,6 +172,11 @@ struct bank_info {
     { 4096, 0xeca57ad7, "Oberheim DMX Stock Snare" },
     { 4096, 0x61af39e3, "Oberheim DMX Stock Rim / Tambourine" },
     { 4096, 0xe8022d72, "Oberheim DMX Stock Tom" },
+
+    { 2048, 0xc53c24bb, "Oberheim DMX Stock Clap (split)" },
+    { 2048, 0x8b5c8320, "Oberheim DMX Stock Rim (split)" },
+    { 2048, 0xf3fa124e, "Oberheim DMX Stock Shaker (split)" },
+    { 2048, 0x3e21441f, "Oberheim DMX Stock Tambourine (split)" },
 
     { 4096, 0xe27ed36a, "Drumulator, Stock, Clap" },
     { 4096, 0xe5c53765, "Drumulator, Stock, Clave" },
