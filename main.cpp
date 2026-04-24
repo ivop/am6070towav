@@ -61,6 +61,7 @@ struct bank_info {
     { 2048, 0xa24fb9cd, "LM-1 Tambourine Bank 1" },
     { 2048, 0x1a5c2a0f, "LM-1 Tom Bank 0" },
     { 2048, 0x430cb76f, "LM-1 Tom Bank 1" },
+
     { 4096, 0xeb9537b2, "LM-1 Bass Drum (concatenated)" },
     { 4096, 0x5d3199a4, "LM-1 Conga (concatenated)" },
     { 4096, 0xb0e8276b, "LM-1 Clap (concatenated)" },
@@ -68,14 +69,15 @@ struct bank_info {
     { 4096, 0xe02e57e1, "LM-1 Snare (concatenated)" },
     { 4096, 0x2f95fc1d, "LM-1 Tombourine (concatenated)" },
     { 4096, 0x10e8931c, "LM-1 Tom (concatenated)" },
+
     { 4096, 0x57eb8886, "LinnDrum Bass 1" },
     { 4096, 0x7dbacb9b, "LinnDrum Bass 6" },
     { 4096, 0x9535274a, "LinnDrum Cabasa" },
-    { 4096, 0x1a579539, "LinnDrum Conga Bank 0" },
-    { 4096, 0x0b13c231, "LinnDrum Conga Bank 1" },
+    { 4096, 0x1a579539, "LinnDrum Conga 2 Bank 0" },
+    { 4096, 0x0b13c231, "LinnDrum Conga 2 Bank 1" },
     { 4096, 0xede0860d, "LinnDrum Claps" },
     { 4096, 0x819d4a2c, "LinnDrum Cowbell" },
-    { 4096, 0x85ce8dc5, "LinnDrum Crash Bank 0" },
+    { 4096, 0x85ce8dc5, "LinnDrum Crash Ba nk 0" },
     { 4096, 0x3681d6f0, "LinnDrum Crash Bank 1" },
     { 4096, 0xff1a4d87, "LinnDrum Crash Bank 2" },
     { 4096, 0x7f623944, "LinnDrum Crash Bank 3" },
@@ -96,8 +98,8 @@ struct bank_info {
     { 4096, 0xd5e24b3e, "LinnDrum Ride Bank 6" },
     { 4096, 0x4ac922bb, "LinnDrum Ride Bank 7" },
     { 4096, 0xc51a5407, "LinnDrum Shaker" },
-    { 4096, 0x846681b2, "LinnDrum Snap Bank 0" },
-    { 4096, 0xc71c0011, "LinnDrum Snap Bank 1" },
+    { 4096, 0x846681b2, "LinnDrum Snap 101 Bank 0" },
+    { 4096, 0xc71c0011, "LinnDrum Snap 101 Bank 1" },
     { 4096, 0xdc06b36a, "LinnDrum Snare 23" },
     { 4096, 0x6f19e08c, "LinnDrum Snare 1" },
     { 4096, 0xfda3a90f, "LinnDrum Sidestick" },
@@ -108,6 +110,16 @@ struct bank_info {
     { 4096, 0xc7633ca4, "LinnDrum Tom 6 Bank 1" },
     { 4096, 0x3b9bbfc1, "LinnDrum Tom 7 Bank 0" },
     { 4096, 0x086cc497, "LinnDrum Tom 7 Bank 1" },
+
+    { 8192, 0x3145f40d, "LinnDrum Conga 2 (concatenated)" },
+    { 32768, 0xad8f895d, "LinnDrum Crash (concatenated)" },
+    { 16384, 0xc312188c, "LinnDrum Hi Hat (concatenated)" },
+    { 32768, 0xa98d7a71, "LinnDrum Ride (concatenated)" },
+    { 8192, 0x116e636a, "LinnDrum Snap 101 (concatenated)" },
+    { 8192, 0x8ef9e346, "LinnDrum Tom 1 (concatenated)" },
+    { 8192, 0x1fa0d8ef, "LinnDrum Tom 6 (concatenated)" },
+    { 8192, 0x140f4514, "LinnDrum Tom 7 (concatenated)" },
+
     { 8192, 0x45151647, "Linn 9000 Bass Drum" },
     { 8192, 0xabaf7243, "Linn 9000 Bell Bank 0" },
     { 8192, 0x39c058bd, "Linn 9000 Bell Bank 1" },
@@ -133,6 +145,12 @@ struct bank_info {
     { 8192, 0x285a8f60, "Linn 9000 Sidestick" },
     { 8192, 0xdccfffc3, "Linn 9000 Tambourine" },
     { 8192, 0x219594f8, "Linn 9000 Tom" },
+
+    { 32768, 0xa220dfd4, "Linn 9000 Bell (concatenated)" },
+    { 49152, 0x8608941f, "Linn 9000 Crash (concatenated)" },
+    { 16384, 0xc312188c, "Linn 9000 Hi Hat (concatenated)" },
+    { 32768, 0x5e74cbc4, "Linn 9000 Ride (concatenated)" },
+
     { 8192, 0x75b90386, "Oberheim DX Stock Conga" },
     { 8192, 0x7726c645, "Oberheim DX Stock Cowbell" },
     { 8192, 0x9c51a0b4, "Oberheim DX Stock Hi-Hat" },
@@ -150,6 +168,7 @@ struct bank_info {
     { 4096, 0xeca57ad7, "Oberheim DMX Stock Snare" },
     { 4096, 0x61af39e3, "Oberheim DMX Stock Rim / Tambourine" },
     { 4096, 0xe8022d72, "Oberheim DMX Stock Tom" },
+
     { 4096, 0xe27ed36a, "Drumulator, Stock, Clap" },
     { 4096, 0xe5c53765, "Drumulator, Stock, Clave" },
     { 4096, 0x1dfe36bc, "Drumulator, Stock, Closed Hi-Hat 1" },
@@ -169,6 +188,7 @@ struct bank_info {
     { 8192, 0x05963a89, "Drumulator, Stock, Tom 1" },
     { 8192, 0x5500b985, "Drumulator, Stock, Tom 2" },
     { 16384, 0x191bfba1, "Drumulator, Stock, Tom 3" },
+
     { 4096, 0x4226d7d4, "Drumulator, Electric 1, Clap" },
     { 4096, 0xec3d4599, "Drumulator, Electric 1, Closed Hi-Hat" },
     { 4096, 0x6bba4962, "Drumulator, Electric 1, Cowbell" },
@@ -181,6 +201,7 @@ struct bank_info {
     { 16384, 0xd59dd78f, "Drumulator, Electric 1, Tom 1" },
     { 16384, 0x46c285b6, "Drumulator, Electric 1, Tom 2" },
     { 16384, 0xd6811f01, "Drumulator, Electric 1, Tom 3" },
+
     { 8192, 0xedd49162, "Drumulator, Electric 2, China" },
     { 4096, 0x7af60f96, "Drumulator, Electric 2, Closed Hi-Hat" },
     { 4096, 0x466ef0a8, "Drumulator, Electric 2, Kick 1" },
@@ -199,6 +220,7 @@ struct bank_info {
     { 8192, 0xf7239d98, "Drumulator, Electric 2, Tom 1" },
     { 8192, 0xe7cbaedb, "Drumulator, Electric 2, Tom 2" },
     { 8192, 0x33bb43f6, "Drumulator, Electric 2, Tom 3" },
+
     { 4096, 0x8af9df41, "Drumulator, African Percussion, Agogo" },
     { 4096, 0x20baa036, "Drumulator, African Percussion, Agogo Low" },
     { 8192, 0x73899527, "Drumulator, African Percussion, Bell Shake" },
@@ -210,6 +232,7 @@ struct bank_info {
     { 16384, 0xb2a6c34a, "Drumulator, African Percussion, Open Triangle" },
     { 8192, 0xddbb4703, "Drumulator, African Percussion, Tom 1" },
     { 8192, 0xf9b55fd5, "Drumulator, African Percussion, Tom 2" },
+
     { 4096, 0xe67ad337, "Drumulator, Latin Percussion, Agogo High" },
     { 4096, 0xb9bc443a, "Drumulator, Latin Percussion, Agogo Low" },
     { 4096, 0x96f2bb25, "Drumulator, Latin Percussion, Block" },
@@ -220,6 +243,7 @@ struct bank_info {
     { 4096, 0xe9c700bb, "Drumulator, Latin Percussion, Tambourine" },
     { 4096, 0x43ed1ffa, "Drumulator, Latin Percussion, Timbale High" },
     { 8192, 0x6a3dacda, "Drumulator, Latin Percussion, Timbale Low" },
+
     { 8192, 0x4cdaf4fd, "Drumulator, Latin Drums, Agogo High" },
     { 8192, 0x40d4e153, "Drumulator, Latin Drums, Agogo Low" },
     { 4096, 0x16708238, "Drumulator, Latin Drums, Cabasa" },
@@ -230,6 +254,7 @@ struct bank_info {
     { 8192, 0x7531c857, "Drumulator, Latin Drums, Timbale High 2" },
     { 8192, 0xeefe3c66, "Drumulator, Latin Drums, Timbale High" },
     { 8192, 0x2f4aa74a, "Drumulator, Latin Drums, Timbale Low" },
+
     { 8192, 0x7faa3b74, "Drumulator, Alternative Drums, Clap" },
     { 4096, 0x139e96a1, "Drumulator, Alternative Drums, Closed Hi-Hat" },
     { 16384, 0xb49f602d, "Drumulator, Alternative Drums, Crash" },
@@ -242,6 +267,7 @@ struct bank_info {
     { 16384, 0x338c0cac, "Drumulator, Alternative Drums, Snare" },
     { 8192, 0x76f604b4, "Drumulator, Alternative Drums, Tom 1" },
     { 8192, 0x155acdf3, "Drumulator, Alternative Drums, Tom 2" },
+
     { 32768, 0xea573559, "Drumulator, Jazz Drums, China" },
     { 4096, 0x17540fcb, "Drumulator, Jazz Drums, Closed Hi-Hat" },
     { 16384, 0x12715c95, "Drumulator, Jazz Drums, Crash" },
@@ -254,6 +280,7 @@ struct bank_info {
     { 8192, 0x53d52715, "Drumulator, Jazz Drums, Tom 1" },
     { 8192, 0x33c304d8, "Drumulator, Jazz Drums, Tom 2" },
     { 16384, 0x81c7a770, "Drumulator, Jazz Drums, Tom 3" },
+
     { 4096, 0x1e29f846, "Drumulator, Rock Drums, Clap" },
     { 4096, 0x042c5697, "Drumulator, Rock Drums, Closed Hi-Hat" },
     { 16384, 0x92c41227, "Drumulator, Rock Drums, Crash" },
@@ -268,6 +295,7 @@ struct bank_info {
     { 8192, 0x374d04c3, "Drumulator, Rock Drums, Snare 4" },
     { 8192, 0x2b6960db, "Drumulator, Rock Drums, Tom 1" },
     { 16384, 0x9c588dea, "Drumulator, Rock Drums, Tom 2" },
+
     { 8192, 0xc3b7b53c, "Drumulator, SFX, Bug Hit" },
     { 4096, 0x583fb85f, "Drumulator, SFX, Cabasa" },
     { 8192, 0x6e1cdcfd, "Drumulator, SFX, Car Beep" },
@@ -277,6 +305,7 @@ struct bank_info {
     { 16384, 0x4b03116b, "Drumulator, SFX, Horn" },
     { 16384, 0x7f567e35, "Drumulator, SFX, Reverse Kick" },
     { 16384, 0xdea73022, "Drumulator, SFX, Snap" },
+
     { 4096, 0x5e46d93e, "Drumulator, TR-808, Cabasa" },
     { 4096, 0xd3621835, "Drumulator, TR-808, Clap" },
     { 4096, 0x107ccf02, "Drumulator, TR-808, Closed Hi-Hat 2" },
@@ -290,6 +319,7 @@ struct bank_info {
     { 4096, 0x2f2238a9, "Drumulator, TR-808, Tom 1" },
     { 4096, 0x27ea457a, "Drumulator, TR-808, Tom 2" },
     { 16384, 0x81ba8882, "Drumulator, TR-808, Tom 3" },
+
     { 8192, 0xd9a944bb, "Drumulator, Various Hits, Snare" },
     { 8192, 0xf787a1cc, "Drumulator, Various Hits, Kick" },
     { 32768, 0x385dd873, "Drumulator, Various Hits, Crash" },
@@ -315,6 +345,7 @@ struct bank_info {
     { 16384, 0x8e45def8, "Drumulator, Various Hits, Tom 5" },
     { 16384, 0x53058322, "Drumulator, Various Hits, Tom 6" },
     { 16384, 0xcc4af090, "Drumulator, Various Hits, Tom 7" },
+
     { 4096, 0xa8c55184, "Drumtraks, Alt. African Bell" },
     { 4096, 0xdfec35fd, "Drumtraks, Alt. Ago Bell" },
     { 4096, 0xbd68a409, "Drumtraks, Alt. Conga Slap" },
