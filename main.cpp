@@ -34,8 +34,8 @@
 
 #define VERSION_MAJOR       0
 #define VERSION_MINOR       9
-#define VERSION_SUBMINOR    1
-#define VERSION_STRING      "0.9.1"
+#define VERSION_SUBMINOR    2
+#define VERSION_STRING      "0.9.2"
 
 #define MAX_BANKS   8
 
