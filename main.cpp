@@ -34,8 +34,8 @@
 
 #define VERSION_MAJOR       0
 #define VERSION_MINOR       9
-#define VERSION_SUBMINOR    2
-#define VERSION_STRING      "0.9.2"
+#define VERSION_SUBMINOR    3
+#define VERSION_STRING      "0.9.3"
 
 #define MAX_BANKS   8
 
@@ -177,6 +177,30 @@ struct bank_info {
     { 2048, 0x8b5c8320, "Oberheim DMX Stock Rim (split)" },
     { 2048, 0xf3fa124e, "Oberheim DMX Stock Shaker (split)" },
     { 2048, 0x3e21441f, "Oberheim DMX Stock Tambourine (split)" },
+
+    { 4096, 0x40d584af, "Oberheim DMX Standard Crash Bank 0" },
+    { 4096, 0x8daf2447, "Oberheim DMX Standard Crash Bank 1" },
+    { 4096, 0x4a41c86d, "Oberheim DMX Standard Crash Bank 2" },
+    { 4096, 0xb30876a9, "Oberheim DMX Standard Crash Bank 3" },
+    { 4096, 0x17c960e8, "Oberheim DMX Standard Ride 2A Bank 0" },
+    { 4096, 0x5b2198d0, "Oberheim DMX Standard Ride 2A Bank 1" },
+    { 4096, 0x4f67cacb, "Oberheim DMX Standard Ride 2A Bank 2" },
+    { 4096, 0x25656751, "Oberheim DMX Standard Ride 2A Bank 3" },
+
+    { 16384, 0x31433fb7, "Oberheim DMX Standard Crash (concatenated)" },
+    { 16384, 0x8193dd80, "Oberheim DMX Standard Ride 2A (concatenated)" },
+
+    { 8192, 0x8c862ef0, "Oberheim DMX New Crash 1F Bank 0" },
+    { 8192, 0x3a0acff8, "Oberheim DMX New Crash 1F Bank 1" },
+    { 8192, 0xe21008ad, "Oberheim DMX New Crash 1F Bank 2" },
+    { 8192, 0xd633cfc3, "Oberheim DMX New Crash 1F Bank 3" },
+    { 8192, 0x7f324c8e, "Oberheim DMX New Ride 5 Bank 0" },
+    { 8192, 0x26204b90, "Oberheim DMX New Ride 5 Bank 1" },
+    { 8192, 0xd471312a, "Oberheim DMX New Ride 5 Bank 2" },
+    { 8192, 0xbdb9b0e2, "Oberheim DMX New Ride 5 Bank 3" },
+
+    { 32768, 0xe78f9ee3, "Oberheim DMX New Crash 1F (concatenated)" },
+    { 32768, 0x39032ec6, "Oberheim DMX New Ride 5 (concatenated)" },
 
     { 4096, 0xe27ed36a, "Drumulator, Stock, Clap" },
     { 4096, 0xe5c53765, "Drumulator, Stock, Clave" },
